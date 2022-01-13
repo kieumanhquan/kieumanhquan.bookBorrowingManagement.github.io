@@ -106,11 +106,8 @@ public class DSQLMuonSach {
 
             qlMuonSach = new QLMuonSach(dsBanDoc[j], dsSachMuon, danhSachSL);
             dsqlms[j] = qlMuonSach;
-
         }
-
     }
-
 
     public void inDanhSachMuonSach() {
         for (int i = 0; i < dsqlms.length; i++) {

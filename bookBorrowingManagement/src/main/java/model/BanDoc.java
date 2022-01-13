@@ -107,14 +107,11 @@ public class BanDoc {
                 }
             }
         } while (inputLoaiBd < 0 || inputLoaiBd > 3 || Convert.isNumeric(String.valueOf(inputLoaiBd)) == false);
-
     }
 
     public String getMaBanDoc() {
         return maBanDoc;
     }
-
-
 
     public void inBanDoc() {
         System.out.println("------------------------------------------");

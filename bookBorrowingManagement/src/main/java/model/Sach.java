@@ -27,8 +27,6 @@ public class Sach {
         this.maSach = maSach;
     }
 
-
-
     public String getTenSach() {
         return tenSach;
     }
@@ -71,7 +69,6 @@ public class Sach {
     public void themSach() {
         this.maSach = themMaSach();
         Scanner scanner = new Scanner(System.in);
-
 
         System.out.print("\n Nhập tên sách: ");
         this.tenSach = scanner.nextLine();

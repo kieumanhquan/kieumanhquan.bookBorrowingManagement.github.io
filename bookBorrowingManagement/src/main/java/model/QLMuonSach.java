@@ -5,7 +5,6 @@ public class QLMuonSach {
     private BanDoc bandoc;
     private Sach[] dsSach = new Sach[soDauSach];
     private int[] soLuong;
-    // private String[] tinhTrangSach;
 
     public void muonSach(BanDoc bandoc, Sach[] dsSach, int[] sl){
         this.bandoc = bandoc;
@@ -53,7 +52,6 @@ public class QLMuonSach {
         }
         return sum;
     }
-
 
     public void inMuonSach() {
         System.out.println("------------------------------------------");
